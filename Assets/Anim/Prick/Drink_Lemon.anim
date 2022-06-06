@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Drink_Lemon
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: d1f557e45a5d01846aeb964e8c086bb7, type: 3}
+    - time: 0.28333333
+      value: {fileID: 21300000, guid: d7047e814d1a3be40845bbeda7a897bf, type: 3}
+    - time: 0.55
+      value: {fileID: 21300000, guid: 0d0eab8b7babe28448af605ceb019686, type: 3}
+    - time: 0.8333333
+      value: {fileID: 21300000, guid: a92a155f13e31a44bbdd7487b7ab720d, type: 3}
+    - time: 1.1
+      value: {fileID: 21300000, guid: 026bd292e4d4e6d428dae33d18a7d0d7, type: 3}
+    - time: 1.3833333
+      value: {fileID: 21300000, guid: fe59108672b49124993a95f337a3f6c8, type: 3}
+    - time: 1.6333333
+      value: {fileID: 21300000, guid: d191b6d9d10cdff4bbe0490f8b7a3e4f, type: 3}
+    - time: 1.9
+      value: {fileID: 21300000, guid: 7e00cb905b01a6541909ecdfe7451196, type: 3}
+    - time: 2.1833334
+      value: {fileID: 21300000, guid: 5e4c02a0c6e95b9409c55ec5941e1dd5, type: 3}
+    - time: 2.45
+      value: {fileID: 21300000, guid: 38ea316f1bf48fe418e95e0aaf0db6f1, type: 3}
+    - time: 2.7333333
+      value: {fileID: 21300000, guid: 675b48bd1a88a134e885a6b9cc46dfbe, type: 3}
+    - time: 3
+      value: {fileID: 21300000, guid: 3ec7caae69148404f97e38635f183e19, type: 3}
+    attribute: m_Sprite
+    path: 
+    classID: 212
+    script: {fileID: 0}
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 0
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    pptrCurveMapping:
+    - {fileID: 21300000, guid: d1f557e45a5d01846aeb964e8c086bb7, type: 3}
+    - {fileID: 21300000, guid: d7047e814d1a3be40845bbeda7a897bf, type: 3}
+    - {fileID: 21300000, guid: 0d0eab8b7babe28448af605ceb019686, type: 3}
+    - {fileID: 21300000, guid: a92a155f13e31a44bbdd7487b7ab720d, type: 3}
+    - {fileID: 21300000, guid: 026bd292e4d4e6d428dae33d18a7d0d7, type: 3}
+    - {fileID: 21300000, guid: fe59108672b49124993a95f337a3f6c8, type: 3}
+    - {fileID: 21300000, guid: d191b6d9d10cdff4bbe0490f8b7a3e4f, type: 3}
+    - {fileID: 21300000, guid: 7e00cb905b01a6541909ecdfe7451196, type: 3}
+    - {fileID: 21300000, guid: 5e4c02a0c6e95b9409c55ec5941e1dd5, type: 3}
+    - {fileID: 21300000, guid: 38ea316f1bf48fe418e95e0aaf0db6f1, type: 3}
+    - {fileID: 21300000, guid: 675b48bd1a88a134e885a6b9cc46dfbe, type: 3}
+    - {fileID: 21300000, guid: 3ec7caae69148404f97e38635f183e19, type: 3}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 3.0166667
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_Events:
+  - time: 0.8333333
+    functionName: DrinkStart
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.8333333
+    functionName: PlayerAudios
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 1
+    messageOptions: 0
+  - time: 1.9
+    functionName: ReactAudios
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 11
+    messageOptions: 0
+  - time: 3
+    functionName: DrinkOver
+    data: Drink_Lemon
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
